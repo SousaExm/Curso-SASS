@@ -1,0 +1,38 @@
+#curiosidades {
+  text-align: center;
+  margin: $espacamento-base auto;
+
+  .curiosidades__texto {
+    h3 {
+      font-size: calc($tamanho-do-texto / 2);
+      color: $cor-primaria;
+      font-weight: 300;
+      border-bottom: 2px solid $cor-secundaria;
+
+      width: fit-content;
+      margin: calc($espacamento-base / 2) auto;
+      padding: .3rem 1rem;
+    }
+
+    h4 {
+      color: $cor-secundaria;
+      margin-bottom: $espacamento-base;
+    }
+
+    p {
+      width: 90%;
+      max-width: 540px;
+      margin: 0 auto;
+      
+      font-size: calc($tamanho-do-texto/3);
+      font-weight: 300;
+      color: $cor-primaria;
+      line-height: 1.25rem;
+    }
+  }
+  img {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
